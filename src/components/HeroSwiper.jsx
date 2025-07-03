@@ -33,7 +33,7 @@ const HeroSwiper = () => {
                             <img src={slide.image} alt={`slide-${index}`} className="w-full object-cover h-screen md:h-auto" />
                             <div className="absolute gap-22 inset-0 flex flex-col justify-center items-center text-center px-4 z-20 flex-grow">
                                 <h2
-                                    className="text-4xl md:text-7xl font-['EB-Garamond'] font-bold text-white md:mt-40"
+                                    className="text-4xl md:text-7xl font-['EB-Garamond'] font-bold text-white mt-40"
                                     style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}
                                 >
                                     Haute École d'Informatique
