@@ -1,4 +1,5 @@
 import About from "./components/About"
+import Admission from "./components/Admission"
 import { Debouche } from "./components/Debouche"
 import Domains from "./components/Domains"
 import HeroSwiper from "./components/HeroSwiper"
@@ -16,6 +17,7 @@ function App() {
       <Team />
       <Debouche />
       <Domains />
+      <Admission />
     </>
   )
 }
