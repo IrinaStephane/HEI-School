@@ -15,7 +15,7 @@ const About = () => {
           />
         </div>
         <div className="flex flex-col gap-8 max-w-xl items-center lg:items-start">
-          <h2 className="text-3xl md:text-4xl font-medium text-primary mb-4 text-center lg:text-left">À propos de nous</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-['EB-Garamond'] text-primary mb-4 text-center lg:text-left">À propos de nous</h2>
           <div className="flex flex-col gap-4y w-full">
             <div className="flex items-center gap-3 justify-center lg:justify-start">
               <GraduationCap className="text-secondary w-15 h-15" />

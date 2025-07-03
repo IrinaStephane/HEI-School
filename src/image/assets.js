@@ -14,6 +14,10 @@ import Mirado from "./Mirado.webp"
 import Parison from "./Parison.png"
 import Ryan from "./Ryan.webp"
 import Tahina from "./Tahina.png"
+import debouche from "./debouche.webp"
+import Cloud_et_cybersecurite from "./Cloud-et-cybersecurite.png"
+import Ingenierie_logicielle from "./Ingenierie-logicielle.png"
+import Intelligence_artificielle from "./Intelligence-artificielle.png"
 
 const assets = {
     logo,
@@ -31,7 +35,11 @@ const assets = {
     Mirado,
     Parison,
     Ryan,
-    Tahina
+    Tahina,
+    debouche,
+    Cloud_et_cybersecurite,
+    Ingenierie_logicielle,
+    Intelligence_artificielle
 }
 
 export default assets
