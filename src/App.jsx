@@ -5,6 +5,7 @@ import Domains from "./components/Domains"
 import HeroSwiper from "./components/HeroSwiper"
 import Langage from "./components/Langage"
 import Navbar from "./components/Navbar"
+import Partner from "./components/Partner"
 import Pedagogie from "./components/Pedagogie"
 import { Team } from "./components/Team"
 
@@ -22,6 +23,7 @@ function App() {
       <Admission />
       <Pedagogie />
       <Langage />
+      <Partner />
     </>
   )
 }

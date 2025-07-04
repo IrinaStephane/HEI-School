@@ -92,5 +92,17 @@ const logos = [
     { src: assets.openapi, alt: "OpenAPI" },
 ];
 
+const partners = [
+  { src: assets.LOGO_NEXTA, alt: "NextA" },
+  { src: assets.PN_Logo_baseline_color_ENG, alt: "Passerelles numériques" },
+  { src: assets.Yooz, alt: "Yooz" },
+  { src: assets.logo_etech, alt: "Etech" },
+  { src: assets.logo_emit, alt: "EMIT" },
+  { src: assets.Logo_Numer_vf, alt: "Numer" },
+  { src: assets.bp_logo, alt: "D Partners" },
+  { src: assets.YIF_LOGO, alt: "Youritfactorv" },
+  { src: assets.logo_kante_company_1, alt: "Kanteco" },
+];
 
-export { slides, teamMembers, domains, logos };
+
+export { slides, teamMembers, domains, logos, partners };

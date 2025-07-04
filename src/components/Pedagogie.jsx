@@ -50,7 +50,7 @@ const Pedagogie = () => {
           </div>
         </div>
         {/* Images */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <img src={assets.Mask_group_1} alt="apprentissage 1" className="rounded-xl object-cover w-full h-[400px] md:h-[370px]" />
           <img src={assets.Mask_group_2} alt="apprentissage 2" className="rounded-xl object-cover w-full h-[400px] md:h-[370px]" />
           <img src={assets.Mask_group_3} alt="apprentissage 3" className="rounded-xl object-cover w-full h-[400px] md:h-[370px]" />
