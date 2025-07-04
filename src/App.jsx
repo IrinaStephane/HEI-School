@@ -2,6 +2,7 @@ import About from "./components/About"
 import Admission from "./components/Admission"
 import { Debouche } from "./components/Debouche"
 import Domains from "./components/Domains"
+import Footer from "./components/Footer"
 import HeroSwiper from "./components/HeroSwiper"
 import Langage from "./components/Langage"
 import Navbar from "./components/Navbar"
@@ -24,6 +25,7 @@ function App() {
       <Pedagogie />
       <Langage />
       <Partner />
+      <Footer />
     </>
   )
 }

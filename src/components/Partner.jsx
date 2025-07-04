@@ -19,7 +19,7 @@ const Partner = () => {
                 key={idx}
                 src={logo.src}
                 alt={logo.alt}
-                className="h-14 md:h-20 w-auto object-contain"
+                className="h-10 md:h-20 w-auto object-contain"
               />
             ))}
           </div>
@@ -29,7 +29,7 @@ const Partner = () => {
                 key={idx}
                 src={logo.src}
                 alt={logo.alt}
-                className="h-14 md:h-20 w-auto object-contain"
+                className="h-13 md:h-20 w-auto object-contain"
               />
             ))}
           </div>

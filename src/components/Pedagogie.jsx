@@ -30,23 +30,30 @@ const Pedagogie = () => {
       </Container>
       {/* Section 25% + images */}
       <Container className="mt-12">
-        {/* Blocs 25% */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-          <div className="bg-[#FAF0D6] rounded-xl flex flex-col items-start justify-center px-7 py-7 min-h-[240px]">
-            <span className="text-secondary text-5xl font-semibold mb-6">25%</span>
-            <span className="text-primary text-2xl font-semibold leading-tight">Apprentissage<br/>théoriques<br/>en présentiel</span>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+          <div className="bg-[#FAF0D6] rounded-xl flex flex-col items-start justify-center px-7 py-7 min-h-[140px] md:min-h-[240px]">
+            <span className="text-secondary text-3xl md:text-5xl font-semibold mb-6">25%</span>
+            <span className="text-primary text-lg md:text-2xl font-semibold leading-tight">
+              Apprentissage<br />théoriques<br />en présentiel
+            </span>
           </div>
-          <div className="bg-[#FAF0D6] rounded-xl flex flex-col items-start justify-center px-7 py-7 min-h-[240px]">
-            <span className="text-secondary text-5xl font-semibold mb-6">25%</span>
-            <span className="text-primary text-2xl font-semibold leading-tight">Apprentissage<br/>sur supports numériques</span>
+          <div className="bg-[#FAF0D6] rounded-xl flex flex-col items-start justify-center px-7 py-7 min-h-[140px] md:min-h-[240px]">
+            <span className="text-secondary text-3xl md:text-5xl font-semibold mb-6">25%</span>
+            <span className="text-primary text-lg md:text-2xl font-semibold leading-tight">
+              Apprentissage<br />sur supports numériques
+            </span>
           </div>
-          <div className="bg-[#FAF0D6] rounded-xl flex flex-col items-start justify-center px-7 py-7 min-h-[240px]">
-            <span className="text-secondary text-5xl font-semibold mb-6">25%</span>
-            <span className="text-primary text-2xl font-semibold leading-tight">Travaux<br/>individuels<br/>de l’étudiant</span>
+          <div className="bg-[#FAF0D6] rounded-xl flex flex-col items-start justify-center px-7 py-7 min-h-[140px] md:min-h-[240px]">
+            <span className="text-secondary text-3xl md:text-5xl font-semibold mb-6">25%</span>
+            <span className="text-primary text-lg md:text-2xl font-semibold leading-tight">
+              Travaux<br />individuels<br />de l’étudiant
+            </span>
           </div>
-          <div className="bg-[#FAF0D6] rounded-xl flex flex-col items-start justify-center px-7 py-7 min-h-[240px]">
-            <span className="text-secondary text-5xl font-semibold mb-6">25%</span>
-            <span className="text-primary text-2xl font-semibold leading-tight">Apprentissage<br/>en entreprise</span>
+          <div className="bg-[#FAF0D6] rounded-xl flex flex-col items-start justify-center px-7 py-7 min-h-[140px] md:min-h-[240px]">
+            <span className="text-secondary text-3xl md:text-5xl font-semibold mb-6">25%</span>
+            <span className="text-primary text-lg md:text-2xl font-semibold leading-tight">
+              Apprentissage<br />en entreprise
+            </span>
           </div>
         </div>
         {/* Images */}

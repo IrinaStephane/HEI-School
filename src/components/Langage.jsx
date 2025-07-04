@@ -22,7 +22,7 @@ return (
                             key={idx}
                             src={logo.src}
                             alt={logo.alt}
-                            className="h-20 md:h-24 w-auto"
+                            className="h-auto md:h-20 md:w-auto w-16"
                         />
                     ))}
                 </div>
@@ -32,7 +32,7 @@ return (
                             key={idx}
                             src={logo.src}
                             alt={logo.alt}
-                            className="h-14 w-auto"
+                            className="h-auto md:h-14 md:w-auto w-20"
                         />
                     ))}
                 </div>
