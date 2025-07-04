@@ -10,6 +10,7 @@ import Julien from "./Julien.webp"
 import Mask_group_1 from "./Mask-group-1.webp"
 import Mask_group_2 from "./Mask-group-2.webp"
 import Mask_group_3 from "./Mask-group-3.webp"
+import Mask_group_4 from "./Mask-group-4.webp"
 import Mirado from "./Mirado.webp"
 import Parison from "./Parison.png"
 import Ryan from "./Ryan.webp"
@@ -32,6 +33,7 @@ const assets = {
     Mask_group_1,
     Mask_group_2,
     Mask_group_3,
+    Mask_group_4,
     Mirado,
     Parison,
     Ryan,
