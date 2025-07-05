@@ -17,7 +17,7 @@ const Navbar = () => {
 
             {/* Mobile slide menu */}
             <div
-                className={`fixed top-0 left-0 h-full w-[60%] bg-primary z-50 transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 flex flex-col items-center pt-10 gap-[43px]`}
+                className={`fixed top-0 left-0 h-full w-[60%] bg-primary z-50 transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 flex flex-col items-center pt-10 gap-11`}
             >
                 <button
                     className="absolute top-7 right-7 text-white"
@@ -53,19 +53,19 @@ const Navbar = () => {
                     </div>
 
                     <div className="hidden md:flex gap-8">
-                        <button className='text-lg uppercase text-[#E3A03C] font-semibold hover:text-[#AC8417] duration-200'>
+                        <button className='text-lg font-[Poppins] font-medium uppercase text-secondary hover:text-[#AC8417] duration-200'>
                             Acceuil
                         </button>
-                        <button className='text-lg uppercase text-white font-semibold hover:text-[#AC8417] duration-200'>
+                        <button className='text-lg font-[Poppins] font-medium uppercase text-white hover:text-[#AC8417] duration-200'>
                             Actualités
                         </button>
-                        <button className='text-lg uppercase text-white font-semibold hover:text-[#AC8417] duration-200'>
+                        <button className='text-lg font-[Poppins] font-medium uppercase text-white hover:text-[#AC8417] duration-200'>
                             Bourse d’études
                         </button>
-                        <button className='text-lg uppercase text-white font-semibold hover:text-[#AC8417] duration-200'>
+                        <button className='text-lg font-[Poppins] font-medium uppercase text-white hover:text-[#AC8417] duration-200'>
                             Inscription
                         </button>
-                        <button className='text-lg uppercase text-white bg-[#E3A03C] font-medium hover:text-primary duration-200 rounded-sm p-2'>
+                        <button className='text-lg font-[Poppins] font-medium uppercase text-white bg-secondary hover:text-primary duration-200 rounded-sm py-2 px-3'>
                             INTRANET
                         </button>
                     </div>
