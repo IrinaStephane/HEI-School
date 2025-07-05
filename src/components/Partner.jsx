@@ -6,10 +6,10 @@ const Partner = () => {
   return (
     <div className="bg-white w-full py-16">
       <Container>
-        <h2 className="font-serif text-primary text-4xl md:text-5xl font-bold text-center mb-4">
+        <h2 className="text-primary text-4xl md:text-5xl font-bold text-center mb-4 title">
           Nos partenaires
         </h2>
-        <p className="text-[#0a2657] text-center text-base md:text-lg max-w-4xl mx-auto mb-12">
+        <p className="text-primary text-center text-base md:text-lg max-w-4xl mx-auto mb-12 font-[Helvetica]">
           L’employabilité de nos étudiants se base sur la pertinence de notre programme pédagogique et de la composition de notre corps enseignant mais aussi du soutien et la collaboration des entreprises partenaires
         </p>
         <div className="flex flex-col gap-10 items-center w-full max-w-6xl mx-auto">
